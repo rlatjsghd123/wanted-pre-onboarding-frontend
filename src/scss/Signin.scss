@@ -1,0 +1,51 @@
+.signin {
+  width: 500px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  .signin_form {
+    width: 100%;
+    background-color: #999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    .title {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .signup_link {
+      width: 300px;
+      a {
+        display: block;
+        text-align: right;
+        color: #222;
+        font-size: 12px;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    input {
+      width: 300px;
+      height: 40px;
+      margin: 10px 0;
+      background-color: #fff;
+      text-indent: 8px;
+    }
+    .test {
+      color: red;
+      font-size: 12px;
+    }
+    button {
+      background-color: #fff;
+      margin-top: 15px;
+      width: 300px;
+      height: 40px;
+    }
+  }
+}

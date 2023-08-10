@@ -1,0 +1,31 @@
+.todo_list {
+  .todo {
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: #fff;
+    overflow: hidden;
+    .edit_input {
+      width: 100%;
+    }
+    .content {
+      font-size: 14px;
+    }
+    .check {
+      margin-right: 3px;
+    }
+    .cancel_submit,
+    .edit_delete {
+      position: absolute;
+      top: 50%;
+      right: 5px;
+      transform: translateY(-50%);
+      padding: 0 5px;
+      svg {
+        font-size: 20px;
+        color: #333;
+      }
+    }
+  }
+}
